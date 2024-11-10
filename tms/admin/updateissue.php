@@ -79,9 +79,9 @@ foreach($results as $result)
   {
 ?>
 
-     <tr style=''>
+     <tr >
       <td class="fontkink1" >Remark:</td>
-      <td class="fontkink" align="justify" ><span class="fontkink">
+      <td class="fontkink" align ="justify" ><span class="fontkink">
         <textarea cols="50" rows="7" name="remark" required="required" ></textarea>
         </span></td>
     </tr>
@@ -96,11 +96,11 @@ foreach($results as $result)
     <?php } else { ?>
      <tr>
       <td class="fontkink1" ><b>Remark:</b></td>
-      <td class="fontkink" align="justify" ><?php echo htmlentities($result->AdminRemark);?></td>
+      <td class="fontkink" align ="justify" ><?php echo htmlentities($result->AdminRemark);?></td>
     </tr>
     <tr>
       <td class="fontkink1" ><b>Remark Date:</b></td>
-      <td class="fontkink" align="justify" ><?php echo htmlentities($result->AdminremarkDate);?></td>
+      <td class="fontkink" align ="justify" ><?php echo htmlentities($result->AdminremarkDate);?></td>
     </tr>
     <?php }}}?>
     
